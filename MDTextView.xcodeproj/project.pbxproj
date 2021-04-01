@@ -7,6 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B90AF484260D97DD00B864DF /* Edge.m in Sources */ = {isa = PBXBuildFile; fileRef = B90AF464260D97DD00B864DF /* Edge.m */; };
+		B90AF485260D97DD00B864DF /* ASTNode.m in Sources */ = {isa = PBXBuildFile; fileRef = B90AF46A260D97DD00B864DF /* ASTNode.m */; };
+		B90AF486260D97DD00B864DF /* re_input.txt in Resources */ = {isa = PBXBuildFile; fileRef = B90AF46B260D97DD00B864DF /* re_input.txt */; };
+		B90AF487260D97DD00B864DF /* NFABuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = B90AF46E260D97DD00B864DF /* NFABuilder.m */; };
+		B90AF488260D97DD00B864DF /* Nfa.m in Sources */ = {isa = PBXBuildFile; fileRef = B90AF46F260D97DD00B864DF /* Nfa.m */; };
+		B90AF489260D97DE00B864DF /* NFAUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = B90AF470260D97DD00B864DF /* NFAUtils.m */; };
+		B90AF48A260D97DE00B864DF /* grammar_input in Resources */ = {isa = PBXBuildFile; fileRef = B90AF474260D97DD00B864DF /* grammar_input */; };
+		B90AF48B260D97DE00B864DF /* ReBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = B90AF475260D97DD00B864DF /* ReBuilder.m */; };
+		B90AF48C260D97DE00B864DF /* ASTUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = B90AF476260D97DD00B864DF /* ASTUtils.m */; };
+		B90AF48D260D97DE00B864DF /* ReUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = B90AF477260D97DD00B864DF /* ReUtils.m */; };
+		B90AF48E260D97DE00B864DF /* DFABuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = B90AF47C260D97DD00B864DF /* DFABuilder.m */; };
+		B90AF48F260D97DE00B864DF /* DFAUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = B90AF47D260D97DD00B864DF /* DFAUtils.m */; };
+		B90AF490260D97DE00B864DF /* DFATransfer.m in Sources */ = {isa = PBXBuildFile; fileRef = B90AF47E260D97DD00B864DF /* DFATransfer.m */; };
+		B90AF491260D97DE00B864DF /* Dfa.m in Sources */ = {isa = PBXBuildFile; fileRef = B90AF481260D97DD00B864DF /* Dfa.m */; };
+		B90AF492260D97DE00B864DF /* Token.m in Sources */ = {isa = PBXBuildFile; fileRef = B90AF482260D97DD00B864DF /* Token.m */; };
+		B90AF493260D97DE00B864DF /* Node.m in Sources */ = {isa = PBXBuildFile; fileRef = B90AF483260D97DD00B864DF /* Node.m */; };
+		B90AF4B2260D986300B864DF /* ASTTokenUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = B90AF4B1260D986300B864DF /* ASTTokenUtils.m */; };
+		B90AF8142610952F00B864DF /* MDReUtilsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B90AF8132610952F00B864DF /* MDReUtilsTests.m */; };
+		B90AF82426109A4100B864DF /* MDReBuilderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B90AF82326109A4100B864DF /* MDReBuilderTests.m */; };
 		B9108D58260A3D0300A31208 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B9108D57260A3D0300A31208 /* AppDelegate.m */; };
 		B9108D5B260A3D0300A31208 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B9108D5A260A3D0300A31208 /* SceneDelegate.m */; };
 		B9108D5E260A3D0300A31208 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9108D5D260A3D0300A31208 /* ViewController.m */; };
@@ -14,8 +33,15 @@
 		B9108D63260A3D0400A31208 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9108D62260A3D0400A31208 /* Assets.xcassets */; };
 		B9108D66260A3D0400A31208 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9108D64260A3D0400A31208 /* LaunchScreen.storyboard */; };
 		B9108D69260A3D0400A31208 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B9108D68260A3D0400A31208 /* main.m */; };
-		B9108D73260A3D0400A31208 /* MDTextViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B9108D72260A3D0400A31208 /* MDTextViewTests.m */; };
 		B9108D7E260A3D0400A31208 /* MDTextViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B9108D7D260A3D0400A31208 /* MDTextViewUITests.m */; };
+		B9108D96260A3E5400A31208 /* MDParser.m in Sources */ = {isa = PBXBuildFile; fileRef = B9108D95260A3E5400A31208 /* MDParser.m */; };
+		B9108DCF260A401800A31208 /* MDParserManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B9108DCE260A401800A31208 /* MDParserManager.m */; };
+		B9109483260B148100A31208 /* MDView.m in Sources */ = {isa = PBXBuildFile; fileRef = B9109482260B148100A31208 /* MDView.m */; };
+		B910948C260B15F900A31208 /* MDCtFrameBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = B910948B260B15F900A31208 /* MDCtFrameBuilder.m */; };
+		B9109492260B1FD900A31208 /* MDViewFrameRef.m in Sources */ = {isa = PBXBuildFile; fileRef = B9109491260B1FD900A31208 /* MDViewFrameRef.m */; };
+		B9109498260B2ED300A31208 /* MDCtFrameToken.m in Sources */ = {isa = PBXBuildFile; fileRef = B9109497260B2ED300A31208 /* MDCtFrameToken.m */; };
+		B910949E260B2F0E00A31208 /* MDCtFrameTokenHyperlinks.m in Sources */ = {isa = PBXBuildFile; fileRef = B910949D260B2F0E00A31208 /* MDCtFrameTokenHyperlinks.m */; };
+		B91094B0260B519200A31208 /* CTFrameParserConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = B91094AF260B519200A31208 /* CTFrameParserConfig.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +62,40 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B90AF464260D97DD00B864DF /* Edge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Edge.m; sourceTree = "<group>"; };
+		B90AF465260D97DD00B864DF /* Node.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Node.h; sourceTree = "<group>"; };
+		B90AF466260D97DD00B864DF /* ReBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReBuilder.h; sourceTree = "<group>"; };
+		B90AF467260D97DD00B864DF /* Token.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Token.h; sourceTree = "<group>"; };
+		B90AF468260D97DD00B864DF /* Edge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Edge.h; sourceTree = "<group>"; };
+		B90AF469260D97DD00B864DF /* ASTNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASTNode.h; sourceTree = "<group>"; };
+		B90AF46A260D97DD00B864DF /* ASTNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASTNode.m; sourceTree = "<group>"; };
+		B90AF46B260D97DD00B864DF /* re_input.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = re_input.txt; sourceTree = "<group>"; };
+		B90AF46C260D97DD00B864DF /* ReUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReUtils.h; sourceTree = "<group>"; };
+		B90AF46E260D97DD00B864DF /* NFABuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NFABuilder.m; sourceTree = "<group>"; };
+		B90AF46F260D97DD00B864DF /* Nfa.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Nfa.m; sourceTree = "<group>"; };
+		B90AF470260D97DD00B864DF /* NFAUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NFAUtils.m; sourceTree = "<group>"; };
+		B90AF471260D97DD00B864DF /* NFABuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NFABuilder.h; sourceTree = "<group>"; };
+		B90AF472260D97DD00B864DF /* Nfa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Nfa.h; sourceTree = "<group>"; };
+		B90AF473260D97DD00B864DF /* NFAUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NFAUtils.h; sourceTree = "<group>"; };
+		B90AF474260D97DD00B864DF /* grammar_input */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = grammar_input; sourceTree = "<group>"; };
+		B90AF475260D97DD00B864DF /* ReBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReBuilder.m; sourceTree = "<group>"; };
+		B90AF476260D97DD00B864DF /* ASTUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASTUtils.m; sourceTree = "<group>"; };
+		B90AF477260D97DD00B864DF /* ReUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReUtils.m; sourceTree = "<group>"; };
+		B90AF478260D97DD00B864DF /* ASTUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASTUtils.h; sourceTree = "<group>"; };
+		B90AF47A260D97DD00B864DF /* DFATransfer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFATransfer.h; sourceTree = "<group>"; };
+		B90AF47B260D97DD00B864DF /* Dfa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dfa.h; sourceTree = "<group>"; };
+		B90AF47C260D97DD00B864DF /* DFABuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFABuilder.m; sourceTree = "<group>"; };
+		B90AF47D260D97DD00B864DF /* DFAUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFAUtils.m; sourceTree = "<group>"; };
+		B90AF47E260D97DD00B864DF /* DFATransfer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFATransfer.m; sourceTree = "<group>"; };
+		B90AF47F260D97DD00B864DF /* DFAUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFAUtils.h; sourceTree = "<group>"; };
+		B90AF480260D97DD00B864DF /* DFABuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFABuilder.h; sourceTree = "<group>"; };
+		B90AF481260D97DD00B864DF /* Dfa.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dfa.m; sourceTree = "<group>"; };
+		B90AF482260D97DD00B864DF /* Token.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Token.m; sourceTree = "<group>"; };
+		B90AF483260D97DD00B864DF /* Node.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Node.m; sourceTree = "<group>"; };
+		B90AF4B0260D986300B864DF /* ASTTokenUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ASTTokenUtils.h; sourceTree = "<group>"; };
+		B90AF4B1260D986300B864DF /* ASTTokenUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ASTTokenUtils.m; sourceTree = "<group>"; };
+		B90AF8132610952F00B864DF /* MDReUtilsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDReUtilsTests.m; sourceTree = "<group>"; };
+		B90AF82326109A4100B864DF /* MDReBuilderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDReBuilderTests.m; sourceTree = "<group>"; };
 		B9108D53260A3D0300A31208 /* MDTextView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MDTextView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9108D56260A3D0300A31208 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B9108D57260A3D0300A31208 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -49,11 +109,26 @@
 		B9108D67260A3D0400A31208 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B9108D68260A3D0400A31208 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B9108D6E260A3D0400A31208 /* MDTextViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MDTextViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B9108D72260A3D0400A31208 /* MDTextViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDTextViewTests.m; sourceTree = "<group>"; };
 		B9108D74260A3D0400A31208 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B9108D79260A3D0400A31208 /* MDTextViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MDTextViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9108D7D260A3D0400A31208 /* MDTextViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDTextViewUITests.m; sourceTree = "<group>"; };
 		B9108D7F260A3D0400A31208 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9108D94260A3E5400A31208 /* MDParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDParser.h; sourceTree = "<group>"; };
+		B9108D95260A3E5400A31208 /* MDParser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDParser.m; sourceTree = "<group>"; };
+		B9108DCD260A401800A31208 /* MDParserManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDParserManager.h; sourceTree = "<group>"; };
+		B9108DCE260A401800A31208 /* MDParserManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDParserManager.m; sourceTree = "<group>"; };
+		B9109481260B148100A31208 /* MDView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDView.h; sourceTree = "<group>"; };
+		B9109482260B148100A31208 /* MDView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDView.m; sourceTree = "<group>"; };
+		B910948A260B15F900A31208 /* MDCtFrameBuilder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDCtFrameBuilder.h; sourceTree = "<group>"; };
+		B910948B260B15F900A31208 /* MDCtFrameBuilder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDCtFrameBuilder.m; sourceTree = "<group>"; };
+		B9109490260B1FD900A31208 /* MDViewFrameRef.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDViewFrameRef.h; sourceTree = "<group>"; };
+		B9109491260B1FD900A31208 /* MDViewFrameRef.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDViewFrameRef.m; sourceTree = "<group>"; };
+		B9109496260B2ED300A31208 /* MDCtFrameToken.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDCtFrameToken.h; sourceTree = "<group>"; };
+		B9109497260B2ED300A31208 /* MDCtFrameToken.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDCtFrameToken.m; sourceTree = "<group>"; };
+		B910949C260B2F0E00A31208 /* MDCtFrameTokenHyperlinks.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDCtFrameTokenHyperlinks.h; sourceTree = "<group>"; };
+		B910949D260B2F0E00A31208 /* MDCtFrameTokenHyperlinks.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDCtFrameTokenHyperlinks.m; sourceTree = "<group>"; };
+		B91094AE260B519200A31208 /* CTFrameParserConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTFrameParserConfig.h; sourceTree = "<group>"; };
+		B91094AF260B519200A31208 /* CTFrameParserConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTFrameParserConfig.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +156,75 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B90AF45A260D977600B864DF /* MDParser */ = {
+			isa = PBXGroup;
+			children = (
+				B90AF49B260D97FD00B864DF /* RE */,
+				B90AF46D260D97DD00B864DF /* NFA */,
+				B90AF479260D97DD00B864DF /* DFA */,
+				B90AF497260D97E200B864DF /* AST */,
+				B90AF468260D97DD00B864DF /* Edge.h */,
+				B90AF464260D97DD00B864DF /* Edge.m */,
+				B90AF465260D97DD00B864DF /* Node.h */,
+				B90AF483260D97DD00B864DF /* Node.m */,
+				B90AF46B260D97DD00B864DF /* re_input.txt */,
+				B90AF474260D97DD00B864DF /* grammar_input */,
+			);
+			path = MDParser;
+			sourceTree = "<group>";
+		};
+		B90AF46D260D97DD00B864DF /* NFA */ = {
+			isa = PBXGroup;
+			children = (
+				B90AF46E260D97DD00B864DF /* NFABuilder.m */,
+				B90AF46F260D97DD00B864DF /* Nfa.m */,
+				B90AF470260D97DD00B864DF /* NFAUtils.m */,
+				B90AF471260D97DD00B864DF /* NFABuilder.h */,
+				B90AF472260D97DD00B864DF /* Nfa.h */,
+				B90AF473260D97DD00B864DF /* NFAUtils.h */,
+			);
+			path = NFA;
+			sourceTree = "<group>";
+		};
+		B90AF479260D97DD00B864DF /* DFA */ = {
+			isa = PBXGroup;
+			children = (
+				B90AF47A260D97DD00B864DF /* DFATransfer.h */,
+				B90AF47B260D97DD00B864DF /* Dfa.h */,
+				B90AF47C260D97DD00B864DF /* DFABuilder.m */,
+				B90AF47D260D97DD00B864DF /* DFAUtils.m */,
+				B90AF47E260D97DD00B864DF /* DFATransfer.m */,
+				B90AF47F260D97DD00B864DF /* DFAUtils.h */,
+				B90AF480260D97DD00B864DF /* DFABuilder.h */,
+				B90AF481260D97DD00B864DF /* Dfa.m */,
+			);
+			path = DFA;
+			sourceTree = "<group>";
+		};
+		B90AF497260D97E200B864DF /* AST */ = {
+			isa = PBXGroup;
+			children = (
+				B90AF467260D97DD00B864DF /* Token.h */,
+				B90AF482260D97DD00B864DF /* Token.m */,
+				B90AF469260D97DD00B864DF /* ASTNode.h */,
+				B90AF46A260D97DD00B864DF /* ASTNode.m */,
+				B90AF478260D97DD00B864DF /* ASTUtils.h */,
+				B90AF476260D97DD00B864DF /* ASTUtils.m */,
+			);
+			path = AST;
+			sourceTree = "<group>";
+		};
+		B90AF49B260D97FD00B864DF /* RE */ = {
+			isa = PBXGroup;
+			children = (
+				B90AF466260D97DD00B864DF /* ReBuilder.h */,
+				B90AF475260D97DD00B864DF /* ReBuilder.m */,
+				B90AF46C260D97DD00B864DF /* ReUtils.h */,
+				B90AF477260D97DD00B864DF /* ReUtils.m */,
+			);
+			path = RE;
+			sourceTree = "<group>";
+		};
 		B9108D4A260A3D0300A31208 = {
 			isa = PBXGroup;
 			children = (
@@ -104,6 +248,9 @@
 		B9108D55260A3D0300A31208 /* MDTextView */ = {
 			isa = PBXGroup;
 			children = (
+				B9109480260B146F00A31208 /* CoreTextView */,
+				B9108DCC260A400300A31208 /* MDParserManager */,
+				B90AF45A260D977600B864DF /* MDParser */,
 				B9108D56260A3D0300A31208 /* AppDelegate.h */,
 				B9108D57260A3D0300A31208 /* AppDelegate.m */,
 				B9108D59260A3D0300A31208 /* SceneDelegate.h */,
@@ -122,8 +269,9 @@
 		B9108D71260A3D0400A31208 /* MDTextViewTests */ = {
 			isa = PBXGroup;
 			children = (
-				B9108D72260A3D0400A31208 /* MDTextViewTests.m */,
 				B9108D74260A3D0400A31208 /* Info.plist */,
+				B90AF8132610952F00B864DF /* MDReUtilsTests.m */,
+				B90AF82326109A4100B864DF /* MDReBuilderTests.m */,
 			);
 			path = MDTextViewTests;
 			sourceTree = "<group>";
@@ -135,6 +283,38 @@
 				B9108D7F260A3D0400A31208 /* Info.plist */,
 			);
 			path = MDTextViewUITests;
+			sourceTree = "<group>";
+		};
+		B9108DCC260A400300A31208 /* MDParserManager */ = {
+			isa = PBXGroup;
+			children = (
+				B9108DCD260A401800A31208 /* MDParserManager.h */,
+				B9108DCE260A401800A31208 /* MDParserManager.m */,
+				B9108D94260A3E5400A31208 /* MDParser.h */,
+				B9108D95260A3E5400A31208 /* MDParser.m */,
+				B9109496260B2ED300A31208 /* MDCtFrameToken.h */,
+				B9109497260B2ED300A31208 /* MDCtFrameToken.m */,
+				B910949C260B2F0E00A31208 /* MDCtFrameTokenHyperlinks.h */,
+				B910949D260B2F0E00A31208 /* MDCtFrameTokenHyperlinks.m */,
+				B90AF4B0260D986300B864DF /* ASTTokenUtils.h */,
+				B90AF4B1260D986300B864DF /* ASTTokenUtils.m */,
+			);
+			path = MDParserManager;
+			sourceTree = "<group>";
+		};
+		B9109480260B146F00A31208 /* CoreTextView */ = {
+			isa = PBXGroup;
+			children = (
+				B9109481260B148100A31208 /* MDView.h */,
+				B9109482260B148100A31208 /* MDView.m */,
+				B910948A260B15F900A31208 /* MDCtFrameBuilder.h */,
+				B910948B260B15F900A31208 /* MDCtFrameBuilder.m */,
+				B9109490260B1FD900A31208 /* MDViewFrameRef.h */,
+				B9109491260B1FD900A31208 /* MDViewFrameRef.m */,
+				B91094AE260B519200A31208 /* CTFrameParserConfig.h */,
+				B91094AF260B519200A31208 /* CTFrameParserConfig.m */,
+			);
+			path = CoreTextView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -239,7 +419,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B90AF486260D97DD00B864DF /* re_input.txt in Resources */,
 				B9108D66260A3D0400A31208 /* LaunchScreen.storyboard in Resources */,
+				B90AF48A260D97DE00B864DF /* grammar_input in Resources */,
 				B9108D63260A3D0400A31208 /* Assets.xcassets in Resources */,
 				B9108D61260A3D0300A31208 /* Main.storyboard in Resources */,
 			);
@@ -266,10 +448,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B90AF48F260D97DE00B864DF /* DFAUtils.m in Sources */,
+				B90AF485260D97DD00B864DF /* ASTNode.m in Sources */,
 				B9108D5E260A3D0300A31208 /* ViewController.m in Sources */,
+				B90AF488260D97DD00B864DF /* Nfa.m in Sources */,
+				B90AF491260D97DE00B864DF /* Dfa.m in Sources */,
+				B91094B0260B519200A31208 /* CTFrameParserConfig.m in Sources */,
+				B90AF487260D97DD00B864DF /* NFABuilder.m in Sources */,
+				B90AF489260D97DE00B864DF /* NFAUtils.m in Sources */,
+				B9109498260B2ED300A31208 /* MDCtFrameToken.m in Sources */,
+				B90AF490260D97DE00B864DF /* DFATransfer.m in Sources */,
 				B9108D58260A3D0300A31208 /* AppDelegate.m in Sources */,
+				B90AF4B2260D986300B864DF /* ASTTokenUtils.m in Sources */,
+				B9108D96260A3E5400A31208 /* MDParser.m in Sources */,
+				B910948C260B15F900A31208 /* MDCtFrameBuilder.m in Sources */,
 				B9108D69260A3D0400A31208 /* main.m in Sources */,
 				B9108D5B260A3D0300A31208 /* SceneDelegate.m in Sources */,
+				B90AF48E260D97DE00B864DF /* DFABuilder.m in Sources */,
+				B90AF492260D97DE00B864DF /* Token.m in Sources */,
+				B9109483260B148100A31208 /* MDView.m in Sources */,
+				B90AF484260D97DD00B864DF /* Edge.m in Sources */,
+				B910949E260B2F0E00A31208 /* MDCtFrameTokenHyperlinks.m in Sources */,
+				B9108DCF260A401800A31208 /* MDParserManager.m in Sources */,
+				B9109492260B1FD900A31208 /* MDViewFrameRef.m in Sources */,
+				B90AF493260D97DE00B864DF /* Node.m in Sources */,
+				B90AF48C260D97DE00B864DF /* ASTUtils.m in Sources */,
+				B90AF48B260D97DE00B864DF /* ReBuilder.m in Sources */,
+				B90AF48D260D97DE00B864DF /* ReUtils.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,7 +482,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B9108D73260A3D0400A31208 /* MDTextViewTests.m in Sources */,
+				B90AF8142610952F00B864DF /* MDReUtilsTests.m in Sources */,
+				B90AF82426109A4100B864DF /* MDReBuilderTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

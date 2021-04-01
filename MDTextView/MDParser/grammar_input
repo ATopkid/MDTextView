@@ -1,0 +1,24 @@
+S -> |S M T
+     |T
+     |ε
+     
+M -> |STARTM
+     |ENDM
+
+STARTM -> |[
+          |(
+
+ENDM -> |]
+        |)
+
+
+T -> |letter
+     |ε
+
+消除左递归
+
+S -> |T S'
+     |ε S'
+
+S' -> |M T S'
+      |ε

@@ -1,10 +1,3 @@
-//
-//  SceneDelegate.m
-//  MDTextView
-//
-//  Created by xiaoxliang on 2021/3/23.
-//
-
 #import "SceneDelegate.h"
 
 @interface SceneDelegate ()

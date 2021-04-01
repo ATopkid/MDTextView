@@ -1,10 +1,3 @@
-//
-//  AppDelegate.m
-//  MDTextView
-//
-//  Created by xiaoxliang on 2021/3/23.
-//
-
 #import "AppDelegate.h"
 
 @interface AppDelegate ()

@@ -1,10 +1,3 @@
-//
-//  MDTextViewUITests.m
-//  MDTextViewUITests
-//
-//  Created by xiaoxliang on 2021/3/23.
-//
-
 #import <XCTest/XCTest.h>
 
 @interface MDTextViewUITests : XCTestCase
